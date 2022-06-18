@@ -1,2 +1,3 @@
-# DataParadox.github.io
-https://dataparadox.github.io/
+# Data Paradox
+
+Link: https://dataparadox.github.io/
