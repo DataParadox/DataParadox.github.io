@@ -1,5 +1,6 @@
 
 /* Social Tags Loader */
+/*
 var socialtags = [{
     img: "img/github_icon.svg",
     link: "https://github.com/DataParadox"
