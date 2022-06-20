@@ -1,0 +1,150 @@
+body {
+	transition: all 0.5s ease;
+	margin:0!important;
+	font-family:Poppins,sans-serif!important;
+	letter-spacing:1px!important;
+	color:#1d1e21;
+	background:#fff;
+	font-weight:300; 
+	margin: auto!important
+}
+
+#navbar {
+  background-color: inherit;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1;
+  overflow: none;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#navbar a:hover {
+  background-color: #d4cebe;
+  color: inherit;
+}
+
+
+
+h1{
+	text-align:center!important;
+	margin-top:50px!important;
+	font-weight:300!important;
+	font-size:3em
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.center{
+	margin:auto!important;
+	text-align:center!important
+}
+
+.vertical-center{
+	min-height:100%;
+	min-height:100vh;
+	display:flex;
+	align-items:center
+}
+
+.spacing{
+	margin-top:5%;
+	margin-top:5vh;
+	margin-bottom:20%;
+	margin-bottom:20vh
+}
+
+.title-desc{
+	margin-top:20px!important;
+	margin-bottom:30px!important;
+	max-width:450px!important;
+	font-weight:300;
+	font-size:18px
+}
+
+
+.light-mode{
+	color:#fff!important;
+	background:#1d1e21!
+	important;
+}
+
+button{
+	background: url(../img/moon.svg) no-repeat;
+	color: transparent;
+	box-shadow: none;
+	border: none;
+	width: 50px;
+	height: 50px;
+	background-position: center;
+	position: absolute;
+	cursor: pointer;
+}
+
+.light-mode button{
+	background: url(../img/sun.svg) no-repeat; 
+	background-position: center;
+}
+
+button:focus {
+	outline:0;
+}
+
+
+.posts_div li{
+	margin: 0 0 10px 0;
+}
+
+.posts_div img {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.hide-on-small-screen{
+		display: none;
+	}
+	
+	.avatar {
+		top: 60px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 575px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+	.hide-on-small-screen{
+		display: none;
+	}
+  
+	.posts_div img {
+		width: 100%;
+	}
+	
+	.avatar {
+		top: 60px;
+	}
+}
