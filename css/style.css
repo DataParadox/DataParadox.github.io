@@ -12,7 +12,7 @@ body {
 /* Navbar Area css ================================================= */
 
 #navbar {
-  background-color: #000410;;
+  background-color: inherit;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -82,8 +82,7 @@ h1{
 /* Toggle Light Mode Area css ================================================= */
 .light-mode{
 	color:#777777!important;
-	background:#1d1e21!
-	important;
+	background:#1d1e21!important;
 }
 
 button{
