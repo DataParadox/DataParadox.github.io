@@ -1,3 +1,4 @@
+/* Body Area css ================================================= */
 body {
 	transition: all 0.5s ease;
 	margin:0!important;
@@ -9,36 +10,23 @@ body {
 	margin: auto!important
 }
 
-/* Navbar Area css ================================================= */
 
-#navbar {
-  background-color: inherit;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-  z-index: 1;
-  overflow: none;
+.text-right{
+	text-align: right !important;
+	margin-bottom: 10px;
 }
 
-#navbar a {
-  float: right;
-  display: block;
-  color: inherit;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
+.p_120 {
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
-
-#navbar a:hover {
-  background-color: #d4cebe;
-  color: inherit;
-}
-
-
+.p_80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  
+.p_20 {
+  padding-top: 20px;
+  padding-bottom: 5px; }
 
 h1{
 	text-align:center!important;
@@ -79,6 +67,38 @@ h1{
 	font-size:18px
 }
 
+/* Navbar Area css ================================================= */
+
+#navbar {
+  background-color: #000410;
+  color: #cccccc;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1;
+  overflow: none;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#navbar a:hover {
+  background-color: #d4cebe;
+  color: inherit;
+}
+
+
+
 /* Toggle Light Mode Area css ================================================= */
 .light-mode{
 	color:#777777!important;
@@ -87,7 +107,8 @@ h1{
 
 button{
 	background: url(../img/moon.svg) no-repeat;
-	color: #fff;
+	background-size: 50%;
+	color: transparent;
 	box-shadow: none;
 	border: none;
 	width: 50px;
@@ -99,7 +120,6 @@ button{
 
 .light-mode button{
 	background: url(../img/sun.svg) no-repeat; 
-	color: #fff;
 	background-position: center;
 }
 
@@ -154,20 +174,12 @@ button:focus {
   .f_title {
   margin-bottom: 35px;
  }
-  .f_title h3 {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Heebo", sans-serif;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-}
 
 .copyright_widget p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #cccccc;
   margin-bottom: 30px;
  }
   .copyright_widget p a {
@@ -182,7 +194,7 @@ button:focus {
   font-size: 14px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #cccccc;
   margin-bottom: 10px;
  }
 .social_widget .list li {
@@ -198,17 +210,4 @@ button:focus {
     margin-right: 0px; }
   .social_widget .list li:hover a {
     color: #8490ff;
-}
-
-.copy_right_text {
-  text-align: center;
-  margin-top: 60px;
- }
-  .copy_right_text p a {
-    color: #8490ff;
-}
-	
-.text-right{
-		text-align: right !important;
-		margin-bottom: 10px;
 }
