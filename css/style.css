@@ -209,6 +209,6 @@ button:focus {
 }
 	
 .text-right{
-		text-align: left !important;
+		text-align: right !important;
 		margin-bottom: 10px;
 }
