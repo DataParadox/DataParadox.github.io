@@ -7,7 +7,8 @@ var socialtags = [{
     img: "img/linkedin_icon.svg",
     link: "#"
 }]
-/*
+*/
+
 function loadSocialIcons() {
     var socialtext = ""
     for (x in socialtags) {
@@ -52,4 +53,3 @@ function scrollFunction() {
 	document.getElementById("navbar").style.top = "0px";
   }
 }
-*/
