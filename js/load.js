@@ -1,6 +1,3 @@
-
-/* Social Tags Loader */
-/*
 var socialtags = [{
     img: "img/github_icon.svg",
     link: "https://github.com/DataParadox"
@@ -19,8 +16,9 @@ function loadSocialIcons() {
 }
 
 loadSocialIcons()
-*/
-/* Day Night Toggler */
+
+
+
 function dayNightToggle() {
     var element = document.body;
     element.classList.toggle("light-mode");
@@ -42,15 +40,4 @@ function checkDayNight() {
         element.classList.remove("light-mode");
     }
 }
-/*
-/* When the user scrolls down 20px from the top of the document, slide down the navbar */
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-	document.getElementById("navbar").style.top = "0px";
-  } else {
-	document.getElementById("navbar").style.top = "0px";
-  }
-}
-*/
