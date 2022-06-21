@@ -1,9 +1,6 @@
 var socialtags = [{
     img: "img/github_icon.svg",
     link: "https://github.com/DataParadox"
-}, {
-    img: "img/linkedin_icon.svg",
-    link: "#"
 }]
 
 function loadSocialIcons() {
