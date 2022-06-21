@@ -106,7 +106,7 @@ h1{
 	background:#1d1e21!important;
 }
 
-button .dark_btn{
+button {
 	background: url(../img/moon.svg) no-repeat;
 	background-size: 50%;
 	color: transparent;
@@ -119,12 +119,12 @@ button .dark_btn{
 	cursor: pointer;
 }
 
-.light-mode button .dark_btn{
+.light-mode button {
 	background: url(../img/sun.svg) no-repeat; 
 	background-position: center;
 }
 
-dark_btn button:focus {
+button:focus {
 	outline:0;
 }
 
