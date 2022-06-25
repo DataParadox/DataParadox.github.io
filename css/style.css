@@ -96,6 +96,14 @@ h1{
 	font-size:18px
 }
 
+.member_info{
+	margin-top:20px!important;
+	margin-bottom:30px!important;
+	max-width:600px!important;
+	font-weight:300;
+	font-size:18px
+}
+
 
 /* Toggle Light Mode Area css ================================================= */
 .light-mode{
