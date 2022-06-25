@@ -89,12 +89,12 @@ body {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 25px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
