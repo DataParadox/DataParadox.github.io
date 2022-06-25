@@ -38,13 +38,17 @@
 
 body {
   margin: 0px;
-  font-family: 'segoe ui';
+}
+
+.nav img{
+	height: 50px;
+	padding-left: 50px;
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #000410;
   position: relative;
 }
 
