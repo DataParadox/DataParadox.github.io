@@ -59,6 +59,11 @@ h1{
 	text-align:center!important
 }
 
+.justify{
+	margin:auto!important;
+	text-align:justify!important;
+}
+
 .vertical-center{
 	min-height:100%;
 	min-height:100vh;
