@@ -14,9 +14,13 @@ body {
 code {
   font-family: Consolas,"courier new";
   color: crimson;
-  background-color: --color-neutral-muted: rgba(110,118,129,0.4);
+  background-color: #f1f1f1;
   padding: 2px;
   border-radius: 6px;
+}
+
+light-mode code{
+	background-color: #6e768166!important;
 }
 
 
