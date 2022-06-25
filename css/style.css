@@ -46,6 +46,10 @@ code {
 .p_20 {
   padding-top: 20px;
   padding-bottom: 5px; }
+  
+.p_10 {
+  padding-top: 10px;
+  padding-bottom: 5px; }
 
 h1{
 	text-align:center!important;
