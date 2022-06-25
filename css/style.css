@@ -98,6 +98,11 @@ h1{
   color: inherit;
 }
 
+#navbar img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
 
 
 /* Toggle Light Mode Area css ================================================= */
@@ -106,11 +111,6 @@ h1{
 	background:#1d1e21!important;
 }
 
-.navimg img{
-	width: 50px;
-	height: 50px;
-	position: absolute;
-}
 
 button {
 	background: url(../img/moon.svg) no-repeat;
