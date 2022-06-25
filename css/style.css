@@ -124,10 +124,6 @@ button {
 	background-position: center;
 }
 
-.light-mode avatar{
-	fill: #000
-}
-
 button:focus {
 	outline:0;
 }
