@@ -69,42 +69,7 @@ h1{
 	font-size:18px
 }
 
-/* Navbar Area css ================================================= 
 
-#navbar {
-  background-color: #000410;
-  color: #cccccc;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
-  z-index: 1;
-  overflow: none;
-}
-
-#navbar a {
-  float: right;
-  display: block;
-  color: inherit;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-#navbar a:hover {
-  background-color: #88656561;
-  color: inherit;
-}
-
-#navbar img{
-	height: 50px;
-	padding-left: 50px;
-}
-
-*/
 /* Toggle Light Mode Area css ================================================= */
 .light-mode{
 	color:#777777!important;
