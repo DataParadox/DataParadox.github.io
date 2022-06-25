@@ -111,6 +111,10 @@ button:focus {
 	.footer_area {
 		text-align: center!important;
 	}
+	.text-right
+	 {
+	  text-align: center!important;
+	 }
 }
 
 @media screen and (max-width: 576px) {
