@@ -19,6 +19,12 @@ code {
   font-size: 85%;
 }
 
+.people img
+{
+	width: 300px;
+	height: 300px;
+}
+
 .light-mode code{
 	background-color: #6e768166!important;
 }
