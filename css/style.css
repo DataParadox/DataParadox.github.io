@@ -21,8 +21,8 @@ code {
 
 .people img
 {
-	height: 200;
-	width: 200;
+	height: auto;
+	max-width: 30%;
 }
 
 .light-mode code{
