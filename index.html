@@ -15,8 +15,32 @@
     <link href="css/bootstrap-grid.css" rel="stylesheet">
 </head>
 <body>
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      <button onclick="dayNightToggle()">Toggle dark mode</button>
+	  <img src="img/DataParadox_.svg">
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="people/" target="_blank">People</a>
+    <a href="publications/" target="_blank">Publications</a>
+    <a href="projects/" target="_blank">Projects</a>
+    <a href="contact/" target="_blank">Contact Us</a>
+  </div>
+</div>
 <!--================ Navbar Area =================-->
-<div id="navbar">
+<!--div id="navbar">
 	<button onclick="dayNightToggle()">Toggle dark mode</button>
 	<img src="img/DataParadox_.svg">
 	<a href="contact/">Contact Us</a>
@@ -24,7 +48,7 @@
 	<a href="publications/">Publications</a>
 	<a href="people/">People</a>
 	<a href="/">Home</a>
-</div>
+</div-->
 <!--================ End Navbar Area =================-->
  
  <!--================ Body Area =================-->
