@@ -7,7 +7,7 @@
 	path {
 		fill: #1d1e21;
 	}
-	@media (prefers-color-scheme: dark) {
+	body.light-mode {
 		path { fill: #777777;}
 	}
 </style>
