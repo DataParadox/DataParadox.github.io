@@ -22,7 +22,7 @@ code {
 .people img
 {
 	height: auto;
-	max-width: 50%;
+	width: 150px;
 }
 
 .light-mode code{
