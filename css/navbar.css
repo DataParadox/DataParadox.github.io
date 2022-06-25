@@ -46,7 +46,7 @@ body {
 }
 
 .nav {
-  height: 50px;
+  height: 100px;
   width: 100%;
   background-color: #000410;
   position: relative;
@@ -81,7 +81,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #88656561;
 }
 
 .nav > #nav-check {
