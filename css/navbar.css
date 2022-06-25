@@ -119,7 +119,7 @@ body {
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
+    top: 100px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -130,7 +130,7 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 250px);
     overflow-y: auto;
   }
 }
