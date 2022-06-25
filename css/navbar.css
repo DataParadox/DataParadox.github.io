@@ -109,7 +109,7 @@ body {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #777777;
   }
   .nav > .nav-links {
     position: absolute;
@@ -130,7 +130,7 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 250px);
+    height: calc(100vh - 350px);
     overflow-y: auto;
   }
 }
