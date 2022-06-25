@@ -19,7 +19,7 @@ code {
   border-radius: 6px;
 }
 
-light-mode code{
+.light-mode code{
 	background-color: #6e768166!important;
 }
 
