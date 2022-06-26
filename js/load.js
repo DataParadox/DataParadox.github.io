@@ -19,7 +19,6 @@ loadSocialIcons()
 function dayNightToggle() {
     var element = document.body;
     element.classList.toggle("light-mode");
-	var element = document.body;
     var check = window.localStorage.getItem('light-mode');
     if (check == "light") {
         window.localStorage.clear();
