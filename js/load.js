@@ -23,10 +23,8 @@ function dayNightToggle() {
     var check = window.localStorage.getItem('light-mode');
     if (check == "light") {
         window.localStorage.clear();
-		element.classList.add("light-mode");
     } else {
         window.localStorage.setItem('light-mode', 'light');
-		element.classList.remove("light-mode");
     }
 
 }
