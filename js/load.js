@@ -20,10 +20,10 @@ function dayNightToggle() {
     var element = document.body;
     element.classList.toggle("light-mode");
     var check = window.localStorage.getItem('light-mode');
-    if (check == "dark") {
+    if (check == "light") {
         window.localStorage.clear();
     } else {
-        window.localStorage.setItem('light-mode', 'dark');
+        window.localStorage.setItem('light-mode', 'light');
     }
 
 }
@@ -31,7 +31,7 @@ function dayNightToggle() {
 function checkDayNight() {
     var check = window.localStorage.getItem('light-mode');
     var element = document.body;
-    if (check == "dark") {
+    if (check == "light") {
         element.classList.add("light-mode");
     } else {
         element.classList.remove("light-mode");
