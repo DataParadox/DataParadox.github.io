@@ -136,7 +136,7 @@ button:focus {
 }
 
 .form-btn button{
-  background: url(../img/send-email.png) no-repeat; 
+  background: url(../img/send-email.png) no-repeat!important; 
   background-position: center;
 }
 
