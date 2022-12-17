@@ -136,14 +136,14 @@ button:focus {
 }
 
 .form-btn button{
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
+  background-color: #4CAF50!important; /* Green */
+  border: none!important;
+  color: white!important;
+  padding: 10px 10px!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  display: inline-block!important;
+  font-size: 18px!important;
 }
 
 /* Responsive Area css ================================================= */
