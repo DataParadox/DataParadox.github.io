@@ -9,6 +9,7 @@ body {
 	background:#fff;
 	font-weight:300; 
 	margin: auto!important
+	text-align:justify!important;
 }
 
 code {
